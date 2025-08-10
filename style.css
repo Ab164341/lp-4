@@ -21,6 +21,7 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap; /* ←追加！
   padding: 1.2rem 2rem;
   background-color: #fff;
   position: sticky;
@@ -196,3 +197,101 @@ form button {
   opacity: 1;
   transform: translateY(0);
 }
+
+@media (max-width: 768px) {
+  /* スマホ用スタイルをここに書いていく */
+
+  .nav-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+  }
+
+  .hero {
+    flex-direction: column;
+    text-align: center;
+    padding: 40px 20px;
+  }
+
+  .service-items {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .before-slider img {
+    width: 100%;
+    height: auto;
+  }
+
+  .price-list li {
+    flex-direction: column;
+    text-align: left;
+    gap: 5px;
+  }
+
+  .voice-items {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  form {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .about-content {
+    flex-direction: column;
+    text-align: center; 
+  }
+
+  .about-image {
+    width: 100%;
+    height: auto;
+  }
+}
+@media (max-width: 768px) {
+  .nav-list {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .header {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+/* スマホ対応 */
+@media screen and (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1rem;
+  }
+
+  .hero-image {
+    height: auto;
+  }
+
+  .hero-text {
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 1rem;
+  }
+
+  .section {
+    padding: 2rem 1rem;
+  }
+
+  .section img {
+    width: 100%;
+    height: auto;
+  }
+
+  .cta-button {
+    font-size: 1rem;
+    padding: 0.8rem 1.2rem;
+  }
+}
+
