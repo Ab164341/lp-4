@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <title>【体験割あり】女性向けプライベート美容サロン｜スマホ予約OK</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="女性向けLPデモ。スマホ予約OK・Instagram/LINE連携・初回体験割あり。見やすく分かりやすい導線で予約率UP。" />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Playfair+Display&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <!-- OGP（画像が無ければ削除OK） -->
+  <meta property="og:title" content="女性向けプライベート美容サロン｜スマホ予約OK">
+  <meta property="og:description" content="初回体験割あり・スマホから簡単予約。女性向けLPデモ。">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://ab164341.github.io/lp-4/og.jpg">
+  <!-- 内部リンクのスクロールずれ対策（sticky header分） -->
+  <style>
+    [id]{scroll-margin-top:80px}
+  </style>
+  <!-- 構造化データ（必要に応じて書き換え） -->
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"BeautySalon",
+    "name":"Lueur Beauté",
+    "address":{"@type":"PostalAddress","addressCountry":"JP","addressRegion":"栃木県","addressLocality":"宇都宮市"},
+    "image":"https://ab164341.github.io/lp-4/hero.jpg",
+    "url":"https://ab164341.github.io/lp-4/",
+    "telephone":"+81-00-0000-0000",
+    "openingHours":"Mo-Su 10:00-20:00"
+  }
+  </script>
+</head>
+<body>
+
+  <!-- ===== Header ===== -->
+  <header class="site-header" aria-label="グローバルナビゲーション">
+    <div class="container">
+      <a href="#" class="logo">Lueur Beauté</a>
+
+      <!-- スマホ用トグル -->
+      <button class="nav-toggle" aria-controls="nav" aria-expanded="false" aria-label="メニューを開閉">☰</button>
+
+      <nav class="nav" id="nav" aria-label="メインメニュー">
+        <a href="#menu">メニュー</a>
+        <a href="#voice">お客様の声</a>
+        <a href="#access">アクセス</a>
+        <a class="btn-primary sm-hide" href="https://line.me/R/ti/p/xxxxxxxx" id="reserve-top" rel="noopener">LINE予約</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ===== Hero ===== -->
+  <section class="hero fade-in" aria-label="ファーストビュー">
+    <div class="container hero-inner">
+      <div class="hero-copy">
+        <h1>あなたの“綺麗”を最短で。<br>女性専用プライベートサロン</h1>
+        <p class="sub">初めてでも安心の体験割／スマホから<span class="u-underline">30秒で予約</span>。<br>
+        Instagram・LINEで簡単にお問い合わせいただけます。</p>
+        <div class="cta-row">
+          <a class="btn-primary" href="https://line.me/R/ti/p/xxxxxxxx" rel="noopener">LINEで予約・相談する</a>
+          <a class="btn-secondary" href="#menu">メニューを見る</a>
+        </div>
+        <ul class="badges">
+          <li>完全個室</li><li>駅から徒歩5分</li><li>当日予約OK</li>
+        </ul>
+      </div>
+      <div class="hero-visual">
+        <img src="hero.jpg" alt="サロン内観" loading="eager">
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Service / Menu ===== -->
+  <section id="menu" class="service fade-in" aria-labelledby="menu-title">
+    <div class="container">
+      <h2 id="menu-title">Service / Menu</h2>
+      <div class="service-items">
+        <div class="item">
+          <img src="service1.jpg" alt="フェイシャルケア">
+          <h3>フェイシャルケア</h3>
+          <p>お肌の悩みに合わせた、あなただけのスペシャルケア。</p>
+        </div>
+        <div class="item">
+          <img src="service2.jpg" alt="ボディトリートメント">
+          <h3>ボディトリートメント</h3>
+          <p>全身の疲れを癒やす極上のリラクゼーション体験。</p>
+        </div>
+        <div class="item">
+          <img src="service3.jpg" alt="リラクゼーション">
+          <h3>リラクゼーション</h3>
+          <p>心と身体を整える、贅沢なひとときを。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Before / After ===== -->
+  <section class="before fade-in" aria-labelledby="ba-title">
+    <div class="container">
+      <h2 id="ba-title">Before / After</h2>
+      <div class="before-slider">
+        <img src="before.jpg" alt="Before">
+        <img src="after.jpg" alt="After">
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Price ===== -->
+  <section class="price fade-in" aria-labelledby="price-title">
+    <div class="container">
+      <h2 id="price-title">Price</h2>
+      <ul class="price-list">
+        <li><span>小顔フェイシャルコース</span><span>¥5,000</span></li>
+        <li><span>毛穴洗浄コース</span><span>¥4,500</span></li>
+        <li><span>美白パックコース</span><span>¥4,000</span></li>
+        <li><span>スペシャルセット（全メニュー）</span><span>¥12,000</span></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ===== Voice ===== -->
+  <section id="voice" class="voice fade-in" aria-labelledby="voice-title">
+    <div class="container">
+      <h2 id="voice-title">お客様の声</h2>
+      <div class="voice-items">
+        <div class="voice-box">
+          <p class="comment">初めてのフェイシャルでしたが、とても丁寧で安心して受けられました！肌のトーンが明るくなって嬉しいです！</p>
+          <p class="name">栃木県 20代女性</p>
+        </div>
+        <div class="voice-box">
+          <p class="comment">悩んでいた毛穴の黒ずみが改善されて、化粧ノリも良くなりました。また来たいです！</p>
+          <p class="name">群馬県 30代女性</p>
+        </div>
+        <div class="voice-box">
+          <p class="comment">説明も丁寧で、施術中もリラックスできました。小顔効果も実感できて満足です！</p>
+          <p class="name">宇都宮市 20代女性</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Reserve ===== -->
+  <section id="reserve" class="reserve fade-in" aria-labelledby="reserve-title">
+    <div class="container">
+      <h2 id="reserve-title">ご予約・お問い合わせ</h2>
+      <p style="margin:8px 0 16px;">
+        <a class="btn-primary" href="reserve" rel="noopener">LINEで予約・相談する</a>
+      </p>
+      <!-- メールの簡易保険：送信でメーラーが開く（後で外部フォームに差し替え可） -->
+      <form action="mailto:abe1031shun@au.com" method="post" enctype="text/plain">
+        <input type="text" name="name" placeholder="お名前" required>
+        <input type="email" name="email" placeholder="メールアドレス" required>
+        <input type="date" name="date" required>
+        <button type="submit">送信</button>
+      </form>
+      <p style="font-size:.9rem;color:#777;margin-top:.5rem;">※LINEが使えない場合のみご利用ください。</p>
+    </div>
+  </section>
+
+  <!-- ===== About ===== -->
+  <section class="about-section fade-in" aria-labelledby="about-title">
+    <div class="container">
+      <h2 id="about-title" class="section-title">Lueur Beautéについて</h2>
+      <p class="section-subtitle">私たちのサロンが大切にしていること</p>
+      <div class="about-content">
+        <img src="about.jpg" alt="サロンイメージ" class="about-image">
+        <div class="about-text">
+          <p>
+            Lueur Beauté（リュール・ボーテ）は、居心地の良さと美しさを追求するすべての人のためのビューティーサロンです。<br>
+            心と肌に寄り添うサービスで、あなただけの輝きを引き出します。
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Access ===== -->
+  <section id="access" class="access fade-in" aria-labelledby="access-title">
+    <div class="container">
+      <h2 id="access-title">アクセス</h2>
+    <p>宇都宮駅 東口から徒歩5分／営業時間 10:00〜20:00（不定休）</p>
+      <div class="map-wrap" style="height:300px;border:1px solid #eee;border-radius:12px;overflow:hidden">
+        <!-- 実店舗で使うときはGoogle Map埋め込みに差し替え -->
+        <iframe
+          src="https://www.google.com/maps/embed?pb="
+          width="100%" height="300" style="border:0;" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+          title="店舗地図"></iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== フローティングCTA（スマホ） ===== -->
+  <div class="floating-cta" style="position:fixed;left:0;right:0;bottom:0;z-index:60;display:none;gap:10px;background:rgba(255,255,255,.96);border-top:1px solid #eee;padding:10px 14px;">
+    <a class="btn-primary" href="https://line.me/R/ti/p/xxxxxxxx" style="flex:1;text-align:center" rel="noopener">LINEで予約・相談</a>
+  </div>
+  <script>
+    // スマホ時のみフローティングCTA表示
+    (function(){ if (window.matchMedia('(max-width: 768px)').matches) {
+      document.querySelector('.floating-cta').style.display = 'flex';
+    }})();
+  </script>
+
+  <!-- ===== Footer ===== -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2025 Lueur Beauté All rights reserved.　
+        <a class="btn-primary" href="https://line.me/R/ti/p/xxxxxxxx" style="margin-left:8px;" rel="noopener">今すぐ予約</a>
+      </p>
+    </div>
+  </footer>
+
+  <!-- ===== Scripts ===== -->
+  <script src="script.js"></script>
+</body>
+</html>
